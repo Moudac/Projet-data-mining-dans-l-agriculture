@@ -45,36 +45,43 @@ Objectifs d'analyse :
 Identifier les relations entre prélèvements ( Rain), surface cultivée ( Area), et production ( Production).
 Comparer la productivité entre les différentes régions ( State) et cultures ( Crop).
 Étudier les variations temporelles ( Year) pour déceler des tendances ou des anomalies.
+
 3. Étapes du projet
 3.1 Importation des bibliothèques et chargement des données
 Bibliothèques utilisées :
 pandas: Manipulation et exploration des données.
 numpy:Calculs mathématiques.
 matplotlibet seaborn: Création de visualisations.
+
 3.2 Exploration des données
 Identification des colonnes pertinentes : State, Year, Crop, Area, Rain, Production.
 Résumé statistique des données pour comprendre les moyennes, écarts-types et éventuelles valeurs manquantes.
+
 3.3 Traitement des données
 Nettoyage des valeurs manquantes, notamment dans Rainet Area.
 Transformation des variables pour l'analyse (par exemple, normalisation).
 Encodage des données catégoriques ( Crop) pour les modèles.
+
 3.4 Modélisation et analyse
 Techniques utilisées :
 Régression linéaire : Pour prédire Productionen fonction de Rain, Area, et Crop.
 Clustering (K-means) : Pour regrouper les régions ayant des caractéristiques similaires.
 Visualisations : Cartes thermiques (heatmaps), diagrammes de dispersion (scatterplots).
+
 3.5 Résultats et interprétation
 Corrélations :
 Relation positive entre Rainet Production.
 Impact significatif de la Surface( Area) sur la productivité.
 Les régions avec des retenues modérées et une utilisation optimale des terres ont les meilleurs rendements.
-4. Conclusion et perspectives
+
+5. Conclusion et perspectives
 Conclusion :
 Le projet démontre l'importance des conditions et des pratiques agricoles pour maximiser la productivité climatique.
 Les outils de data mining permettent d'identifier des stratégies optimales pour améliorer les rendements.
 Perspectives :
 Étendre le dataset pour inclure d'autres variables comme le type de sol ou l'utilisation d'intrants biologiques.
 Déployer un tableau de bord interactif pour fournir des recommandations personnalisées aux agriculteurs.
-5. Questions / Discussions
+
+7. Questions / Discussions
 Quels sont les facteurs les plus influents pour chaque type de culture ( Crop) ?
 Comment utiliser ces résultats pour optimiser les politiques agricoles 
